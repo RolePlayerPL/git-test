@@ -8,7 +8,7 @@ int main() {
   // Brain explodes here:
   for (int i = 1; i <= 100; i++){
     if (i % 3 == 0 && i % 5 == 0){
-      finalAnswer = "FizzBuzz";
+      finalAnswer = "FizzBuzz!!!";
       std::cout << finalAnswer << std::endl;
     }
     else if (i % 3 == 0){
